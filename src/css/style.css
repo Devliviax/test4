@@ -1,0 +1,128 @@
+/*  */
+#img{
+    width: 100%;
+} 
+header {
+    background-image: url(/src/img/Group\ 130.png);
+    height: 170vh;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ /* noticias*/
+.informacoes{
+    width: 100%;
+    background-color: var(--azul-claro);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.noticia{
+    width: 100%;
+    height: 100vh; 
+    align-items: center;
+    justify-content: center;
+}
+
+
+#no{
+    width: 80%;
+}
+
+h1{
+    font-weight:800;
+    color: var(--azul-escuro);
+    font-size: 55px;
+}
+
+h5 {
+    font-weight: 700;
+}
+
+.import{
+font-weight:bold;
+}
+
+.medicos{
+    background-position: center;
+    background-size: 90vw !important;
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    position: relative;
+}
+.img_medico {
+    width: 100%;
+    z-index: -3;
+    position: absolute;
+    left: 0;
+}
+.controler-card {
+    width: 100%;
+    height: 600px;
+    padding: 50px;
+}
+.card{
+    width: 80%;
+    height: 18vh;
+    border-radius: 0;
+    border: 0;
+}
+.card img {
+    margin:-16px;
+}
+
+.gestao{
+    top: -123px;
+}
+.populacao {
+    top: -122px;
+}
+
+h2{
+    color: var(--azul-escuro);
+    position:relative;
+    font-size: normal;
+    text-align: center;
+    top: -122px;
+}
+span {
+    font-weight: bold !important;
+}
+.redesocial ul li{
+    text-decoration: none !important;
+    display: inline-block;
+    padding-right: 20px;
+}
+.col-md-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-bottom: 20px;
+}
+.col-md-5 > h5 {
+    padding-left: 60px;
+}
+.pull-right {
+    float: right !important;
+}
+.gtco-social-icons {
+    margin: 0;
+    padding: 0;
+}
+
+
+.test1{
+    transition: all .2s linear;
+}
+
+
+
+
+
+

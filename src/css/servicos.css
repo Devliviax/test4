@@ -1,0 +1,13 @@
+header{
+        height: 200px;        
+}.just{
+
+        height: auto;
+        width:100%; 
+} 
+.servicos {
+font-size: 128px;
+font-weight: 800;
+text-align: center;
+color: var(--azul-ciano2)
+}
