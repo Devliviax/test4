@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+header {
+    height: 140px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1150px;
+}
+
+.part{
+    margin-top:50px;
+    width: 100%;
+    height: 1052px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/img/contato/RetÃ¢ngulo\ 1\ copiar\ 1.png);
+}
+
+.localizacao{
+    margin-top: 100px;
+    margin-left: 140px;
+       display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.letras{
+   align-items: center;
+    justify-content: center;
+display:flex;
+}   
+
+.letras>h1{
+    color: var(--azul-ciano) !important;
+font-size: 64px;
+font-weight: 700;
+text-align: center;
+
+}
+.letras>p{
+    font-size: 48px;
+    font-weight: 400;
+    color: var(--azul-ciano) !important;
+text-align: center;
+
+
+}
+
+
+/* ---------------- */
+
+.form {
+    width: 100%;
+    max-width: 32rem;
+    font-size: 1.125rem;
+    
+}
+
+.form label,
+.form input,
+.form textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;    
+}
+
+.form textarea {
+    min-height: 13em;
+    resize: vertical;
+
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover
+.form textarea:focus {
+    outline: none;
+    border-color: rgb(0, 0, 0);
+        
+}
+
+.form input,
+.form textarea {
+  font: inherit;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid;
+  border-radius: 20px;
+  transition: border-color, box-shadow 0.2s;
+  border-color: rgb(0, 97, 97);
+}
+
+
+.controler_area-mapa {
+    display: flex;
+}
+.area_mapa {
+    width: 100%;
+    height: 750px;
+    position: relative;
+    display: inline-block;
+
+}
+.area_mapa > img {
+    width: 100%;
+    width: 100%;
+}
+.area_text-mapa {
+    width: 550px;
+    height: 300px;
+    position: absolute;
+    right: 10px;
+    top: 195px;
+}
+.area_text-mapa > span:first-child {
+    font-size: 50px;
+    font-weight: 7  00;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    color: var(--azul-ciano2);
+}
+
+.area_text-mapa > span:last-child {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;    
+    position: absolute;
+    top: 200px;
+    color: var(--azul-ciano2);
+}
+.contatos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.contatos > h1 {
+    font-size: 128px;
+    font-weight: 700;
+    line-height: 158px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--azul-ciano);
+}
+.btn_enviar {
+    display: block;
+    padding: 16px;
+    background: rgb(0, 97, 97);
+    color: #fff;
+    font: inherit;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 415px;
+    left: 400px;
+}
+.form {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 100px;
+}
+.info_form {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--azul-ciano);
+    margin-bottom: 150px;
+}
+.telefones > span {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--azul-ciano);
+}
+.telefone {
+    margin: 20px 0 100px 0;
+}
+.telefone > span {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--azul-ciano);
+    margin-left: 50px;
+}
+.colaborador {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text_colaborador-1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 79px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--azul-ciano);
+}
+.text_colaborador-2 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--azul-ciano);
+    margin-bottom: 50px;
+}
+.btn_enviar2 {
+    display: block;
+    padding: 16px;
+    background: rgb(0, 97, 97);
+    color: #fff;
+    font: inherit;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 205px;
+    left: 400px;
+}
+.form-group {
+    position: relative;
+}
+.redesocial ul li{
+    text-decoration: none !important;
+    display: inline-block;
+    padding-right: 20px;
+}
+.rodaa{
+    width:1226px;
+}
+.col-md-5 {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-bottom: 20px;
+}
+.col-md-5 > h5 {
+    padding-left: 60px;
+}
+.pull-right {
+    float: right !important;
+}
+.gtco-social-icons {
+    margin: 0;
+    padding: 0;
+}

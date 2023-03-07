@@ -1,0 +1,96 @@
+    header {
+        height: 140px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* width: 1150px; */
+    }
+
+    .area_pessoa {
+        width: 100%;
+        height: 550px;
+        display: flex;
+        margin: 50px 0 50px 0;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .block_pessoa-1 {
+        width: 498px;
+        height: 167px;
+        display: flex;
+    }
+
+    .nome_pessoa-1 {
+        color: var(--azul-ciano);
+        width: 100%;
+        margin-top: 12px;
+        padding-left: 10px;
+    }
+    .nome_pessoa-1 > span {
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    
+    .desc_pessoa-1 {
+        width: 100%;
+        height: 125px;
+        padding: 0 0 0 10px ;
+
+    }
+    .desc_pessoa-1 > span {
+        font-size: 12px;
+        font-weight: 500;
+        text-align: left;
+        color: var(--azul-ciano);
+    }
+    .area_text-1 {
+        width: 100%;
+        height: 400px;
+    }
+    .area_text-1 > span {
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 44px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--azul-ciano2);
+    }
+    .area_text-1 > img {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .img_doctor {
+        width: 100%;
+        height: 450px;
+    }
+    .img_doctor > img {
+        width: 100%;
+    }
+    .area_text-2 {
+        width: 100%;
+        margin-bottom: 150px;
+    }
+    .area_text-2 > span {
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 44px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--azul-ciano2);
+    }
+    .mapa {
+        width: 100%;
+        height: 900px;
+    }
+    .mapa > img {
+        width: 100%;
+    }
